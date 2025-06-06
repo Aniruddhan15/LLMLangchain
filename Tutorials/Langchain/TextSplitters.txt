@@ -1,0 +1,9 @@
+| TextSplitter                     | Splits by         | Use Case                       |
+| -------------------------------- | ----------------- | ------------------------------ |
+| `CharacterTextSplitter`          | Characters        | Simple, unstructured text      |
+| `RecursiveCharacterTextSplitter` | Smart hierarchy   | RAG, best general use          |
+| `MarkdownTextSplitter`           | Markdown headers  | Technical docs, blogs          |
+| `HTMLTextSplitter`               | HTML tags         | Web scraping, webpages         |
+| `TokenTextSplitter`              | LLM tokens        | LLM budget-sensitive splitting |
+| `SpacyTextSplitter`              | Sentences (SpaCy) | Clean, grammar-based splitting |
+| `NLTKTextSplitter`               | Sentences (NLTK)  | Sentence-accurate splits       |
