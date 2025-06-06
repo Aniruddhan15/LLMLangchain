@@ -6,3 +6,35 @@
 | **StuffDocumentsChain**       | Concatenate docs then feed to LLM   |
 | **TransformChain**            | Modifies data before passing        |
 | **ToolChain / AgentExecutor** | Combines tools, memory, agent logic |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| Chain                          | Purpose                     |
+| ------------------------------ | --------------------------- |
+| `LLMChain`                     | Simple Prompt + LLM         |
+| `SimpleSequentialChain`        | Basic chaining              |
+| `SequentialChain`              | Multiple outputs and inputs |
+| `RetrievalQA`                  | Document-based Q\&A         |
+| `ConversationalRetrievalChain` | Multi-turn Q\&A             |
+| `TransformChain`               | Modify inputs/outputs       |
+| `StuffDocumentsChain`          | Combines all docs into one  |
+| `MapReduceDocumentsChain`      | Parallel summary & reduce   |
+| `RefineDocumentsChain`         | Step-by-step doc summarizer |
+| `RouterChain`                  | Dynamic routing             |
+| `Custom Chain (inherit Chain)` | DIY logic                   |
