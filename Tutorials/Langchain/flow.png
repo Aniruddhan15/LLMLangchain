@@ -1,0 +1,9 @@
+[User Question] 
+     ↓
+[PromptTemplate] → [LLM] ← [Memory]
+     ↓
+[Chain]
+     ↓
+[Retriever (RAG)] ← [Vector DB ← TextSplitter ← DocumentLoader]
+     ↓
+[Answer]
