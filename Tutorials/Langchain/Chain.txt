@@ -1,0 +1,8 @@
+| Chain Type                    | Description                         |
+| ----------------------------- | ----------------------------------- |
+| **MapReduceDocumentsChain**   | For summarizing many documents      |
+| **RefineDocumentsChain**      | Iterative summarization             |
+| **LLMSummarizationChain**     | High-level document summarization   |
+| **StuffDocumentsChain**       | Concatenate docs then feed to LLM   |
+| **TransformChain**            | Modifies data before passing        |
+| **ToolChain / AgentExecutor** | Combines tools, memory, agent logic |
