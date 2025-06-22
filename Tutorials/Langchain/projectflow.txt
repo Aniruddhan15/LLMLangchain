@@ -1,0 +1,9 @@
+| Component       | Module                                      | Description              |
+| --------------- | ------------------------------------------- | ------------------------ |
+| Loader          | `TextLoader`                                | Load raw document        |
+| Splitter        | `RecursiveCharacterTextSplitter`            | Create chunks            |
+| Embeddings      | `HuggingFaceEmbeddings`, `OpenAIEmbeddings` | Embed chunks             |
+| Vectorstore     | `FAISS`                                     | Store vectors            |
+| Retriever       | `.as_retriever()`                           | Fetch similar chunks     |
+| Chain           | `create_stuff_documents_chain()`            | Format LLM prompt        |
+| Retrieval Chain | `create_retrieval_chain()`                  | Combines retriever + LLM |
